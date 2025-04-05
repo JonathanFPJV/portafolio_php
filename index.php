@@ -1,19 +1,19 @@
 <?php include 'templates/header.php'; ?>
 <?php include 'templates/navbar.php'; ?>
 
-<!-- Sección de imagen central con efecto -->
-<section class="relative flex justify-center items-center w-full h-96 mt-16 overflow-hidden rounded-full"> <!-- Cambié "overflow-hidden" para una forma ovalada -->
+<section class="relative flex justify-center items-center w-full h-96 mt-16 overflow-hidden rounded-full">
     <!-- Imagen centrada con efecto de opacidad -->
-    <img src="img/02.png" alt="Imagen Central" class="absolute w-full h-full object-cover opacity-80 rounded-full" /> <!-- Aplicamos el estilo ovalado aquí -->
+    <img src="img/02.png" alt="Imagen Central" class="absolute w-full h-full object-cover opacity-80 rounded-full" />
     
     <!-- Texto sobre la imagen -->
     <div class="absolute z-10 text-white text-3xl font-bold animate__animated animate__fadeInUp">
         <p class="text-center">Explora mis proyectos y habilidades</p>
     </div>
 
-    <!-- Canvas con efecto de nieve que se limita a la forma ovalada -->
-    <canvas id="snow-canvas" class="absolute inset-0 z-0 rounded-full"></canvas> <!-- Agregamos el estilo ovalado también al canvas -->
+    <!-- Canvas con efecto de Matrix, limitado a la forma ovalada -->
+    <canvas id="snow-canvas" class="absolute inset-0 z-0 rounded-full"></canvas>
 </section>
+
 
 <section class="text-center py-20">
     <h1 class="text-5xl font-extrabold animate__animated animate__fadeInDown">Hola, soy <span class="text-blue-400">Jonathan Juli Velazco</span></h1>
